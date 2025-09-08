@@ -48,39 +48,4 @@ while True:
     
 
 
-#     import cv2
-# face_cap=cv2.CascadeClassifier('D:/Lib/site-packages/cv2/data/haarcascade_frontalface_default.xml')
-# cap= cv2.VideoCapture(0)#run time camera enables
-# #pramennt camera access
-# while True:
-#     #reading the images 
-#     ret,video_data=cap.read()
-#     col=cv2.cvtColor(video_data,cv2.COLOR_BGR2GRAY)
-#     video_data=cv2.flip(video_data,1)
-#     face=face_cap.detectMultiScale(
-#         col,
-#         scaleFactor=1.1,
-#         minNeighbors=4,
-#         minSize=(30,30),
-#         flags=cv2.CASCADE_SCALE_IMAGE
-#     )
-#     for(x,y,w,h) in face:
-#         cv2.rectangle(video_data,(x,y),(x+w,y+h),(0,255,0),2)
-#     cv2.imshow('Face Recognigation',video_data)
-#     if cv2.waitKey(10)== ord('a'):
-#         break
-# cap.release()
- 
-
-# #only for enabling camera
-# # import cv2
-# # cap= cv2.VideoCapture(0)#run time camera enables
-# # #pramennt camera access
-# # while True:
-# #     #reading the images 
-# #     ret,video_data=cap.read()
-# #     cv2.imshow('Face Recognigation',video_data)
-# #     if cv2.waitKey(10)== ord('a'):
-# #         break
-# # cap.release()
 
